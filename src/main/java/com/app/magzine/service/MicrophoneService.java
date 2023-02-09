@@ -7,8 +7,6 @@ import org.springframework.stereotype.Service;
 import com.app.magzine.model.Microphone;
 import com.app.magzine.repository.MicrophoneRepository;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Service
