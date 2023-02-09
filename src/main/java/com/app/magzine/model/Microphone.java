@@ -1,6 +1,5 @@
 package com.app.magzine.model;
 
-import jakarta.annotation.Nullable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
@@ -16,5 +15,4 @@ public class Microphone {
 	private Long id;
 	private String model;
 	private String brand;
-	private Long serial;
 }

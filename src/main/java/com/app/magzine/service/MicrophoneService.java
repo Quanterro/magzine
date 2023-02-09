@@ -20,4 +20,8 @@ public class MicrophoneService {
 	public List<Microphone> getMicrophones() {
 		return microphoneRepository.findAll();
 	}
+
+	public Microphone addMicrophone(Microphone microphone) {
+		return microphoneRepository.save(microphone);
+	}
 }
